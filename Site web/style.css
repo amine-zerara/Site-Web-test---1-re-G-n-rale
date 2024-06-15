@@ -1,0 +1,152 @@
+h1{
+	color:#705e00;
+	text-align:center;
+	font-size:60px;
+}
+
+/*#para1{*/
+	/*color:#1ABC9C;*/
+	/*font-family:Bradley Hand, cursive;*/
+/*}*/
+
+.vide{
+	height:50px;
+}
+
+.cadreThemes{
+	/*dimensions du cadre*/
+	width: 520px;         /*longeur*/
+	/*height:200px;*/     /*largeur sinon auto*/
+	
+	/*placement cadre*/
+	float: left;          /*à gauche*/  
+	margin-top: 20px;     /*haut*/
+	margin-bottom: 20px;  /*bas*/
+	margin-left: 20px;    /*gauche*/
+	margin-right: 20px;   /*droite*/
+	
+	/*mise en forme texte*/
+	background: #E0E2E4;  /*couleur du fond*/
+	font: 15px Aladin;    /*taille et police*/
+	text-align: center;   /*alignement texte*/
+	padding: 20px;        /*marge avec le texte*/
+	
+	/*bordures*/
+	border:groove;        /*style*/
+	border-color:rgb(243, 166, 78);    /*couleur*/
+	border-width:5px;     /*largeur*/
+	border-radius:20px;   /*bordure arrondie*/	
+}
+
+
+
+/* ----------------------------------*/
+/* ----------------------------------*/
+/* ----------------------------------*/
+html,body{
+	background-color: #90de8e;
+	color:#000000;
+	padding:4px;
+	margin:0px;
+}
+
+header{
+	margin:0px;
+	width:100%;
+	height:80px;
+	background-color: #4aa157;
+	margin-bottom: 10px; /*mettre espace en dessous */
+	border-bottom: 5px solid #239b5b;
+}
+
+/*création du logo */
+#logo{
+	display:block;
+	width: 80px;
+	height: 80px;
+	background-image: url("logo.jpg"); 	/*insertion image*/
+	background-size: 80px;
+	position: relative;
+	transition: 0.2s;
+}
+
+/* faire à la fin -> pour changer le logo quand souris dessus*/
+#logo:hover{
+	background-image: url("logo2.jpg");
+}
+
+/*.title rajouté après side_bar*/
+h2.title{
+	padding: 0px;
+	margin: 0px;
+	color:#fff;
+	font-size: 1.5em;
+	/*font-family: "OCR A Std", monospace;*/
+	font-family: 'Pacifico', cursive;
+	/* pour positionner le titre dans le bandeau*/
+	position: absolute;
+	left:100px;
+	top:10px;
+	/* pour centrer
+	left:50%; 	margin-left: -280px;*/
+}
+
+h2{
+	color: #cd3030;
+}
+
+/* ----------------- */
+/*    Pour le menu   */
+/* ----------------- */
+nav{
+	position: absolute;
+	width: 750px;
+	height: auto;
+	left:40%; /*centrer largeur*/
+	top:25px;  /*centrer hauteur*/
+}
+
+/*supprimer les puces*/
+nav ul{
+	list-style-type: none; 
+}
+
+/*mettre sur la même ligne*/
+nav ul li{
+	position: relative;
+	float:left;
+}
+
+nav ul li a{
+	display: block;
+	width: 130px;
+	height: 25px;
+	padding: 2px;
+	background-color: #4aa157;
+	text-align: center;
+	text-decoration: none;  /*supprime le surlignement du lien*/
+	color:#fff;
+	font-size: 1.2em;
+	font-weight: extra bold;
+	margin:3px;
+	/*line-height: -30px;*/  /*deplacement vers haut ou bas */
+	transition: 0.2s;
+}
+
+/* changer la couleur du rectangle au survol de la souris */
+nav ul li a:hover{
+	background-color: #13e8ac;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
